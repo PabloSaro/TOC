@@ -1,0 +1,23 @@
+V3 15
+FL C:/hlocal/practica2b/prac2b.vhd 2016/10/25.21:18:40 P.15xf
+FL C:/hlocal/tb_muneca.vhd 2016/10/25.19:45:34 P.15xf
+FL C:/hlocal/workspaceEMM/practica2b/prac2b.vhd 2016/10/26.12:35:15 P.15xf
+EN work/muneca 1477478573 FL C:/hlocal/workspaceEMM/practica2b/prac2b.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/muneca/Behaviour 1477478574 \
+      FL C:/hlocal/workspaceEMM/practica2b/prac2b.vhd EN work/muneca 1477478573 \
+      CP divisor1
+FL C:/hlocal/workspaceEMM/tb_muneca.vhd 2016/10/25.19:45:36 P.15xf
+FL C:/hlocal/workspaceEMM/toc_clase/divisor1.vhd 2016/10/24.20:32:36 P.15xf
+EN work/divisor1 1477478571 FL C:/hlocal/workspaceEMM/toc_clase/divisor1.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/divisor1/rtl 1477478572 \
+      FL C:/hlocal/workspaceEMM/toc_clase/divisor1.vhd EN work/divisor1 1477478571 \
+      CP clk_1hz
+FL C:/Users/usuario_local/Downloads/tb_muneca.vhd 2016/10/26.11:06:04 P.15xf
+EN work/tb_muneca 0 FL C:/Users/usuario_local/Downloads/tb_muneca.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627 \
+      PB std/TEXTIO 1335251621
+AR work/tb_muneca/beh 0 \
+      FL C:/Users/usuario_local/Downloads/tb_muneca.vhd EN work/tb_muneca 0 \
+      CP muneca

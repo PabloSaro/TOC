@@ -1,0 +1,3 @@
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/practica2b/prac2b.sym 
+vhdtdtfi -prj practica2b -o C:/hlocal/practica2b/prac2b.tfi -module prac2b -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work prac2b.vhd 

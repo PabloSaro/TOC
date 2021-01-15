@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/hlocal/practica2b/tb_muneca.xst" -ofn "C:/hlocal/practica2b/tb_muneca.syr" 

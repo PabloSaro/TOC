@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/TOC/divider/tb_divider_isim_beh.exe" -prj "C:/TOC/divider/tb_divider_beh.prj" "work.tb_divider" 

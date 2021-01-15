@@ -1,0 +1,2 @@
+vhdl isim_temp "../toc_clase/divisor1.vhd"
+vhdl isim_temp "prac2b.vhd"

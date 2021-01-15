@@ -1,0 +1,27 @@
+V3 23
+FL E:/prac4toc/CD.vhd 2016/11/29.16:35:22 P.15xf
+FL E:/prac4toc/divisor.vhd 2016/11/29.16:43:28 P.15xf
+FL E:/prac4toc/UC.vhd 2016/11/29.16:39:44 P.15xf
+FL E:/prac4toctodo/prac4toc/CD.vhd 2016/11/30.11:49:58 P.15xf
+FL E:/prac4toctodo/prac4toc/divisor.vhd 2016/11/30.11:42:48 P.15xf
+FL E:/prac4toctodo/prac4toc/UC.vhd 2016/11/29.16:39:44 P.15xf
+FL E:/prac4toctodo/prac4_toc_avan/CD.vhd 2016/11/30.12:06:36 P.15xf
+EN work/cd 1480504680 FL E:/prac4toctodo/prac4_toc_avan/CD.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/CD/rtl 1480504681 \
+      FL E:/prac4toctodo/prac4_toc_avan/CD.vhd EN work/cd 1480504680 CP dndo_msb \
+      CP res CP coc
+FL E:/prac4toctodo/prac4_toc_avan/divisor.vhd 2016/11/30.11:42:48 P.15xf
+EN work/divisor 1480504684 FL E:/prac4toctodo/prac4_toc_avan/divisor.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/divisor/struct 1480504685 \
+      FL E:/prac4toctodo/prac4_toc_avan/divisor.vhd EN work/divisor 1480504684 \
+      CP cd CP uc
+FL E:/prac4toctodo/prac4_toc_avan/UC.vhd 2016/11/29.16:39:44 P.15xf
+EN work/uc 1480504682 FL E:/prac4toctodo/prac4_toc_avan/UC.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/UC/rtl 1480504683 \
+      FL E:/prac4toctodo/prac4_toc_avan/UC.vhd EN work/uc 1480504682
+FL F:/prac4toc/CD.vhd 2016/11/29.17:27:14 P.15xf
+FL F:/prac4toc/divisor.vhd 2016/11/30.00:25:28 P.15xf
+FL F:/prac4toc/UC.vhd 2016/11/29.16:39:44 P.15xf

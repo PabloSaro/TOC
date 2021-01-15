@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "F:/prac5toc/bj_mem/conv_7seg.xst" -ofn "F:/prac5toc/bj_mem/conv_7seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s1000-ft256-5 conv_7seg.ngc conv_7seg.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o conv_7seg_map.ncd conv_7seg.ngd conv_7seg.pcf 
+par -w -intstyle ise -ol high -t 1 conv_7seg_map.ncd conv_7seg.ncd conv_7seg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml conv_7seg.twx conv_7seg.ncd -o conv_7seg.twr conv_7seg.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s1000-ft256-5 conv_7seg.ngc conv_7seg.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o conv_7seg_map.ncd conv_7seg.ngd conv_7seg.pcf 
+par -w -intstyle ise -ol high -t 1 conv_7seg_map.ncd conv_7seg.ncd conv_7seg.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml conv_7seg.twx conv_7seg.ncd -o conv_7seg.twr conv_7seg.pcf 

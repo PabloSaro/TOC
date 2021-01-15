@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/hlocal/practica2b/tb_muneca_isim_beh.exe" -prj "C:/hlocal/practica2b/tb_muneca_beh.prj" "work.tb_muneca" 

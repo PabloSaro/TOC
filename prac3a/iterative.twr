@@ -1,0 +1,220 @@
+--------------------------------------------------------------------------------
+Release 14.1 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe
+-intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml iterative.twx iterative.ncd -o
+iterative.twr iterative.pcf
+
+Design file:              iterative.ncd
+Physical constraint file: iterative.pcf
+Device,package,speed:     xc3s1000,ft256,-5 (PRODUCTION 1.39 2012-04-23)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+din<0>         |num_patterns<0>|   25.128|
+din<0>         |num_patterns<1>|   26.724|
+din<0>         |num_patterns<2>|   27.455|
+din<0>         |num_patterns<3>|   29.987|
+din<0>         |num_patterns<4>|   33.596|
+din<1>         |num_patterns<0>|   24.758|
+din<1>         |num_patterns<1>|   26.354|
+din<1>         |num_patterns<2>|   27.085|
+din<1>         |num_patterns<3>|   29.617|
+din<1>         |num_patterns<4>|   33.226|
+din<2>         |num_patterns<0>|   25.363|
+din<2>         |num_patterns<1>|   26.959|
+din<2>         |num_patterns<2>|   27.690|
+din<2>         |num_patterns<3>|   30.222|
+din<2>         |num_patterns<4>|   33.831|
+din<3>         |num_patterns<0>|   25.212|
+din<3>         |num_patterns<1>|   26.808|
+din<3>         |num_patterns<2>|   27.539|
+din<3>         |num_patterns<3>|   30.071|
+din<3>         |num_patterns<4>|   33.680|
+din<4>         |num_patterns<0>|   25.084|
+din<4>         |num_patterns<1>|   26.680|
+din<4>         |num_patterns<2>|   27.411|
+din<4>         |num_patterns<3>|   29.943|
+din<4>         |num_patterns<4>|   33.552|
+din<5>         |num_patterns<0>|   25.820|
+din<5>         |num_patterns<1>|   27.416|
+din<5>         |num_patterns<2>|   28.147|
+din<5>         |num_patterns<3>|   30.679|
+din<5>         |num_patterns<4>|   34.288|
+din<6>         |num_patterns<0>|   24.110|
+din<6>         |num_patterns<1>|   25.706|
+din<6>         |num_patterns<2>|   26.503|
+din<6>         |num_patterns<3>|   29.035|
+din<6>         |num_patterns<4>|   32.644|
+din<7>         |num_patterns<0>|   24.096|
+din<7>         |num_patterns<1>|   25.692|
+din<7>         |num_patterns<2>|   27.524|
+din<7>         |num_patterns<3>|   30.056|
+din<7>         |num_patterns<4>|   33.665|
+din<8>         |num_patterns<0>|   23.085|
+din<8>         |num_patterns<1>|   24.681|
+din<8>         |num_patterns<2>|   25.412|
+din<8>         |num_patterns<3>|   27.944|
+din<8>         |num_patterns<4>|   31.553|
+din<9>         |num_patterns<0>|   22.659|
+din<9>         |num_patterns<1>|   24.255|
+din<9>         |num_patterns<2>|   24.986|
+din<9>         |num_patterns<3>|   27.518|
+din<9>         |num_patterns<4>|   31.127|
+din<10>        |num_patterns<0>|   20.828|
+din<10>        |num_patterns<1>|   22.424|
+din<10>        |num_patterns<2>|   23.412|
+din<10>        |num_patterns<3>|   25.944|
+din<10>        |num_patterns<4>|   29.553|
+din<11>        |num_patterns<0>|   20.098|
+din<11>        |num_patterns<1>|   21.694|
+din<11>        |num_patterns<2>|   23.185|
+din<11>        |num_patterns<3>|   25.717|
+din<11>        |num_patterns<4>|   29.326|
+din<12>        |num_patterns<0>|   20.447|
+din<12>        |num_patterns<1>|   22.043|
+din<12>        |num_patterns<2>|   22.774|
+din<12>        |num_patterns<3>|   25.306|
+din<12>        |num_patterns<4>|   28.915|
+din<13>        |num_patterns<0>|   20.224|
+din<13>        |num_patterns<1>|   21.820|
+din<13>        |num_patterns<2>|   22.551|
+din<13>        |num_patterns<3>|   25.083|
+din<13>        |num_patterns<4>|   28.692|
+din<14>        |num_patterns<0>|   19.465|
+din<14>        |num_patterns<1>|   21.061|
+din<14>        |num_patterns<2>|   21.792|
+din<14>        |num_patterns<3>|   24.324|
+din<14>        |num_patterns<4>|   27.933|
+din<15>        |num_patterns<0>|   18.428|
+din<15>        |num_patterns<1>|   20.024|
+din<15>        |num_patterns<2>|   21.042|
+din<15>        |num_patterns<3>|   23.574|
+din<15>        |num_patterns<4>|   27.183|
+din<16>        |num_patterns<0>|   18.078|
+din<16>        |num_patterns<1>|   19.674|
+din<16>        |num_patterns<2>|   20.405|
+din<16>        |num_patterns<3>|   22.937|
+din<16>        |num_patterns<4>|   26.546|
+din<17>        |num_patterns<0>|   17.538|
+din<17>        |num_patterns<1>|   19.134|
+din<17>        |num_patterns<2>|   19.865|
+din<17>        |num_patterns<3>|   22.397|
+din<17>        |num_patterns<4>|   26.006|
+din<18>        |num_patterns<0>|   16.982|
+din<18>        |num_patterns<1>|   18.489|
+din<18>        |num_patterns<2>|   19.579|
+din<18>        |num_patterns<3>|   22.111|
+din<18>        |num_patterns<4>|   25.720|
+din<19>        |num_patterns<0>|   17.310|
+din<19>        |num_patterns<1>|   18.906|
+din<19>        |num_patterns<2>|   19.637|
+din<19>        |num_patterns<3>|   22.169|
+din<19>        |num_patterns<4>|   25.778|
+din<20>        |num_patterns<0>|   15.609|
+din<20>        |num_patterns<1>|   17.116|
+din<20>        |num_patterns<2>|   18.181|
+din<20>        |num_patterns<3>|   20.330|
+din<20>        |num_patterns<4>|   23.779|
+din<21>        |num_patterns<0>|   15.100|
+din<21>        |num_patterns<1>|   16.607|
+din<21>        |num_patterns<2>|   17.372|
+din<21>        |num_patterns<3>|   19.521|
+din<21>        |num_patterns<4>|   20.545|
+din<22>        |num_patterns<0>|   15.091|
+din<22>        |num_patterns<1>|   16.598|
+din<22>        |num_patterns<2>|   17.105|
+din<22>        |num_patterns<3>|   18.721|
+din<22>        |num_patterns<4>|   19.179|
+din<23>        |num_patterns<0>|   14.249|
+din<23>        |num_patterns<1>|   15.756|
+din<23>        |num_patterns<2>|   16.263|
+din<23>        |num_patterns<3>|   17.917|
+din<23>        |num_patterns<4>|   19.101|
+din<24>        |num_patterns<0>|   12.758|
+din<24>        |num_patterns<1>|   14.366|
+din<24>        |num_patterns<2>|   14.772|
+din<24>        |num_patterns<3>|   16.378|
+din<24>        |num_patterns<4>|   16.836|
+din<25>        |num_patterns<0>|   13.651|
+din<25>        |num_patterns<1>|   15.158|
+din<25>        |num_patterns<2>|   15.665|
+din<25>        |num_patterns<3>|   17.271|
+din<25>        |num_patterns<4>|   17.729|
+din<26>        |num_patterns<0>|   11.747|
+din<26>        |num_patterns<1>|   13.078|
+din<26>        |num_patterns<2>|   13.761|
+din<26>        |num_patterns<3>|   15.522|
+din<26>        |num_patterns<4>|   15.980|
+din<27>        |num_patterns<0>|   11.482|
+din<27>        |num_patterns<1>|   13.257|
+din<27>        |num_patterns<2>|   13.496|
+din<27>        |num_patterns<3>|   14.084|
+din<27>        |num_patterns<4>|   14.542|
+din<28>        |num_patterns<0>|   11.293|
+din<28>        |num_patterns<1>|   12.820|
+din<28>        |num_patterns<2>|   13.307|
+din<28>        |num_patterns<3>|   13.408|
+din<28>        |num_patterns<4>|   14.363|
+din<29>        |num_patterns<0>|   11.903|
+din<29>        |num_patterns<1>|   12.938|
+din<29>        |num_patterns<2>|   13.917|
+din<29>        |num_patterns<3>|   14.018|
+din<29>        |num_patterns<4>|   12.891|
+din<30>        |num_patterns<0>|    8.588|
+din<30>        |num_patterns<1>|    9.659|
+din<30>        |num_patterns<2>|   10.638|
+din<30>        |num_patterns<3>|   10.739|
+din<30>        |num_patterns<4>|    9.612|
+din<31>        |num_patterns<0>|   10.583|
+din<31>        |num_patterns<1>|   11.618|
+din<31>        |num_patterns<2>|   12.597|
+din<31>        |num_patterns<3>|   12.698|
+din<31>        |num_patterns<4>|   11.571|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Nov 16 12:44:30 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 170 MB
+
+
+

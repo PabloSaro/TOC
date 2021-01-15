@@ -1,0 +1,28 @@
+Command line:
+   prac2b_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1587
+
+Wed Oct 26 12:06:09 2016
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 827.138 Meg
+
+ Total Signals          : 8
+ Total Nets             : 8
+ Total Signal Drivers   : 4
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 3
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 368
+
+ Total Simulation Time: 0.1092 sec
+
+ Current Memory Usage: 827.138 Meg
+
+Wed Oct 26 12:10:53 2016
+

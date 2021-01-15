@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "C:/hlocal/practica2b/tb_muneca.xst" -ofn "C:/hlocal/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+vhdtdtfi -lib work ../tb_muneca.vhd -prj practica2b -o tb_muneca.spl -module tb_muneca -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 tb_muneca.spl C:/hlocal/workspaceEMM/practica2b/tb_muneca.sym 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+vhdtdtfi -lib work ../../../Users/usuario_local/Downloads/tb_muneca.vhd -prj practica2b -o tb_muneca.spl -module tb_muneca -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 tb_muneca.spl C:/hlocal/workspaceEMM/practica2b/tb_muneca.sym 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/tb_muneca.syr" 

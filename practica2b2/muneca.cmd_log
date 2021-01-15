@@ -1,0 +1,55 @@
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+vhdtdtfi -lib work ../toc_clase/divisor1.vhd -lib work prac2b.vhd -prj practica2b -o muneca.spl -module muneca -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 muneca.spl C:/hlocal/workspaceEMM/practica2b/muneca.sym 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/usuario_local/Downloads/pines_P1.ucf -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/usuario_local/Downloads/pines_P1.ucf -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/muneca.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/muneca.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc C:/Users/usuario_local/Downloads/pines_P1.ucf -p xc3s1000-ft256-5 muneca.ngc muneca.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o muneca_map.ncd muneca.ngd muneca.pcf 
+par -w -intstyle ise -ol high -t 1 muneca_map.ncd muneca.ncd muneca.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml muneca.twx muneca.ncd -o muneca.twr muneca.pcf 
+bitgen -intstyle ise -f muneca.ut muneca.ncd 

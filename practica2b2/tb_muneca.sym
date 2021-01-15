@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="tb_muneca">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2016-10-26T9:13:56</timestamp>
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="192" y="-8" type="symbol" />
+    </graph>
+</symbol>

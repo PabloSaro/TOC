@@ -1,0 +1,4 @@
+vhdl isim_temp "definitions.vhd"
+vhdl isim_temp "cell.vhd"
+vhdl isim_temp "iterative.vhd"
+vhdl isim_temp "testa.vhd"

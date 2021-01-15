@@ -1,0 +1,41 @@
+Release 14.1 - xst P.15xf (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to E:/practica3avanzado/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> Parameter xsthdpdir set to E:/practica3avanzado/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/practica3avanzado/cell.vhd" in Library work.
+Entity <cell> compiled.
+ERROR:HDLParsers:164 - "E:/practica3avanzado/cell.vhd" Line 71. parse error, unexpected GENERIC
+ERROR:HDLParsers:3312 - "E:/practica3avanzado/cell.vhd" Line 73. Undefined symbol 'op2'.
+ERROR:HDLParsers:1209 - "E:/practica3avanzado/cell.vhd" Line 73. op2: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "E:/practica3avanzado/cell.vhd" Line 74. Undefined symbol 'sel'.  Should it be: del, bel, srl or sll?
+ERROR:HDLParsers:1209 - "E:/practica3avanzado/cell.vhd" Line 74. sel: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "E:/practica3avanzado/cell.vhd" Line 75. Undefined symbol 'res'.
+ERROR:HDLParsers:1209 - "E:/practica3avanzado/cell.vhd" Line 75. res: Undefined symbol (last report in this block)
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.53 secs
+ 
+--> 
+
+Total memory usage is 210836 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

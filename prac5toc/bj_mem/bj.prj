@@ -1,0 +1,7 @@
+vhdl work "ipcore_dir/bj_mem.vhd"
+vhdl work "contador.vhd"
+vhdl work "uc.vhd"
+vhdl work "divisor_new.vhd"
+vhdl work "conv_7seg.vhd"
+vhdl work "cd.vhd"
+vhdl work "bj.vhd"

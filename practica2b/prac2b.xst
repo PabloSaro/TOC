@@ -1,0 +1,5 @@
+set -tmpdir "C:/hlocal/practica2b/xst/projnav.tmp"
+set -xsthdpdir "C:/hlocal/practica2b/xst"
+elaborate
+-ifn prac2b.prj
+-ifmt mixed

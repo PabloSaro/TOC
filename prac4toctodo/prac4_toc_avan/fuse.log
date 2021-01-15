@@ -1,0 +1,24 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/prac4toctodo/prac4toc/tb_divider_isim_beh.exe -prj E:/prac4toctodo/prac4toc/tb_divider_beh.prj work.tb_divider 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/prac4toctodo/prac4toc/UC.vhd" into library work
+Parsing VHDL file "E:/prac4toctodo/prac4toc/CD.vhd" into library work
+Parsing VHDL file "E:/prac4toctodo/prac4toc/divisor.vhd" into library work
+Parsing VHDL file "E:/prac4toctodo/prac4toc/tb_prac4.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture rtl of entity cd [cd_default]
+Compiling architecture rtl of entity uc [uc_default]
+Compiling architecture struct of entity divisor [divisor_default]
+Compiling architecture beh of entity tb_divider
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 10 VHDL Units
+Built simulation executable E:/prac4toctodo/prac4toc/tb_divider_isim_beh.exe
+Fuse Memory Usage: 37072 KB
+Fuse CPU Usage: 545 ms

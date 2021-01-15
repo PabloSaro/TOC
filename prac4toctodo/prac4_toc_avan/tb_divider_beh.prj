@@ -1,0 +1,4 @@
+vhdl work "UC.vhd"
+vhdl work "CD.vhd"
+vhdl work "divisor.vhd"
+vhdl work "tb_prac4.vhd"

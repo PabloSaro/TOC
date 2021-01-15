@@ -1,0 +1,14 @@
+EN cd NULL E:/prac5toc/bj_mem/cd.vhd sub00/vhpl08 1482320902
+EN bj NULL E:/prac5toc/bj_mem/bj.vhd sub00/vhpl12 1482320908
+AR cd rtl E:/prac5toc/bj_mem/cd.vhd sub00/vhpl09 1482320903
+AR divisor rtl E:/prac5toc/bj_mem/divisor_new.vhd sub00/vhpl07 1482320901
+AR uc rtl E:/prac5toc/bj_mem/uc.vhd sub00/vhpl11 1482320905
+EN divisor NULL E:/prac5toc/bj_mem/divisor_new.vhd sub00/vhpl06 1482320900
+AR bj behavioral E:/prac5toc/bj_mem/bj.vhd sub00/vhpl13 1482320909
+AR conv_7seg behavioral E:/prac5toc/bj_mem/conv_7seg.vhd sub00/vhpl01 1482320907
+EN uc NULL E:/prac5toc/bj_mem/uc.vhd sub00/vhpl10 1482320904
+EN conv_7seg NULL E:/prac5toc/bj_mem/conv_7seg.vhd sub00/vhpl00 1482320906
+EN contador NULL E:/prac5toc/bj_mem/contador.vhd sub00/vhpl02 1482320896
+EN bj_mem NULL E:/prac5toc/bj_mem/ipcore_dir/bj_mem.vhd sub00/vhpl04 1482320898
+AR contador rtl E:/prac5toc/bj_mem/contador.vhd sub00/vhpl03 1482320897
+AR bj_mem bj_mem_a E:/prac5toc/bj_mem/ipcore_dir/bj_mem.vhd sub00/vhpl05 1482320899

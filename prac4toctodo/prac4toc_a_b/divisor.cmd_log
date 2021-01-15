@@ -1,0 +1,21 @@
+xst -intstyle ise -ifn "E:/prac4toc/divisor.xst" -ofn "E:/prac4toc/divisor.syr" 
+xst -intstyle ise -ifn "E:/prac4toc/divisor.xst" -ofn "E:/prac4toc/divisor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf 
+xst -intstyle ise -ifn "E:/prac4toc/divisor.xst" -ofn "E:/prac4toc/divisor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf 
+xst -intstyle ise -ifn "F:/prac4toc/divisor.xst" -ofn "F:/prac4toc/divisor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf 
+xst -intstyle ise -ifn "F:/prac4toc/divisor.xst" -ofn "F:/prac4toc/divisor.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 divisor.ngc divisor.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o divisor_map.ncd divisor.ngd divisor.pcf 
+par -w -intstyle ise -ol high -t 1 divisor_map.ncd divisor.ncd divisor.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divisor.twx divisor.ncd -o divisor.twr divisor.pcf 

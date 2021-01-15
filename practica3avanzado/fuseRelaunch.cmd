@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "E:/practica3a/cell_isim_beh.exe" -prj "E:/practica3a/cell_beh.prj" "work.cell" 

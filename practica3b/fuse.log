@@ -1,0 +1,20 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "E:/practica3b/tb_fu_isim_beh.exe" -prj "E:/practica3b/tb_fu_beh.prj" "work.tb_fu" 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/hlocal/Nueva carpeta/tb_fu.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/hlocal/Nueva carpeta/tb_fu.vhd" Line 64: <fu> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/hlocal/Nueva carpeta/tb_fu.vhd" Line 64. Instance fu is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package textio
+Compiling architecture beh of entity tb_fu
+Time Resolution for simulation is 1ps.
+Compiled 5 VHDL Units
+Built simulation executable E:/practica3b/tb_fu_isim_beh.exe
+Fuse Memory Usage: 36628 KB
+Fuse CPU Usage: 561 ms

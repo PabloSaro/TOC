@@ -1,0 +1,48 @@
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/Xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/practica2b/prac2b.sym 
+vhdtdtfi -prj practica2b -o C:/hlocal/practica2b/prac2b.tfi -module prac2b -template C:/Xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work prac2b.vhd 
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/workspaceEMM/practica2b/prac2b.sym 
+vhdtdtfi -prj practica2b -o C:/hlocal/workspaceEMM/practica2b/prac2b.tfi -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/tfi.tft -deleteonerror -lib work prac2b.vhd 
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/workspaceEMM/practica2b/prac2b.sym 
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/workspaceEMM/practica2b/prac2b.sym 
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/workspaceEMM/practica2b/prac2b.sym 
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/workspaceEMM/practica2b/prac2b.sym 
+vhdtdtfi -lib work prac2b.vhd -prj practica2b -o prac2b.spl -module prac2b -template C:/software/electronica/xilinx/14.1/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3 prac2b.spl C:/hlocal/workspaceEMM/practica2b/prac2b.sym 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 prac2b.ngc prac2b.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prac2b_map.ncd prac2b.ngd prac2b.pcf 
+par -w -intstyle ise -ol high -t 1 prac2b_map.ncd prac2b.ncd prac2b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prac2b.twx prac2b.ncd -o prac2b.twr prac2b.pcf 
+bitgen -intstyle ise -f prac2b.ut prac2b.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 prac2b.ngc prac2b.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prac2b_map.ncd prac2b.ngd prac2b.pcf 
+par -w -intstyle ise -ol high -t 1 prac2b_map.ncd prac2b.ncd prac2b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prac2b.twx prac2b.ncd -o prac2b.twr prac2b.pcf 
+bitgen -intstyle ise -f prac2b.ut prac2b.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 prac2b.ngc prac2b.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prac2b_map.ncd prac2b.ngd prac2b.pcf 
+par -w -intstyle ise -ol high -t 1 prac2b_map.ncd prac2b.ncd prac2b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prac2b.twx prac2b.ncd -o prac2b.twr prac2b.pcf 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 prac2b.ngc prac2b.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prac2b_map.ncd prac2b.ngd prac2b.pcf 
+par -w -intstyle ise -ol high -t 1 prac2b_map.ncd prac2b.ncd prac2b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prac2b.twx prac2b.ncd -o prac2b.twr prac2b.pcf 
+bitgen -intstyle ise -f prac2b.ut prac2b.ncd 
+xst -intstyle ise -ifn "C:/hlocal/workspaceEMM/practica2b/prac2b.xst" -ofn "C:/hlocal/workspaceEMM/practica2b/prac2b.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 prac2b.ngc prac2b.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o prac2b_map.ncd prac2b.ngd prac2b.pcf 
+par -w -intstyle ise -ol high -t 1 prac2b_map.ncd prac2b.ncd prac2b.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml prac2b.twx prac2b.ncd -o prac2b.twr prac2b.pcf 

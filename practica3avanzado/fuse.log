@@ -1,0 +1,20 @@
+Running: C:\software\electronica\xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o E:/practica3a/cell_isim_beh.exe -prj E:/practica3a/cell_beh.prj work.cell 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "E:/practica3a/definitions.vhd" into library work
+Parsing VHDL file "E:/practica3a/cell.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package definitions
+Compiling architecture behavioral of entity cell
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable E:/practica3a/cell_isim_beh.exe
+Fuse Memory Usage: 36432 KB
+Fuse CPU Usage: 483 ms

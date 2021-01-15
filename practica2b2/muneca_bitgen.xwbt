@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\hlocal\workspaceEMM\practica2b\muneca.ncd
+OUTFILE=C:\hlocal\workspaceEMM\practica2b\muneca.bit
+FAMILY=Spartan3
+PART=xc3s1000-5ft256
+WORKINGDIR=C:\hlocal\workspaceEMM\practica2b
+LICENSE=WebPack
+USER_INFO=210699396_1777489394_210552810_807

@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/TOC/divider/divider.xst" -ofn "C:/TOC/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/TOC/divider/divider.xst" -ofn "C:/TOC/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/TOC/divider/divider.xst" -ofn "C:/TOC/divider/divider.syr" 
+xst -intstyle ise -ifn "C:/TOC/divider/divider.xst" -ofn "C:/TOC/divider/divider.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 divider.ngc divider.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o divider_map.ncd divider.ngd divider.pcf 
+par -w -intstyle ise -ol high -t 1 divider_map.ncd divider.ncd divider.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml divider.twx divider.ncd -o divider.twr divider.pcf 

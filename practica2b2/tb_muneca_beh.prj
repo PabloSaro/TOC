@@ -1,0 +1,3 @@
+vhdl work "../toc_clase/divisor1.vhd"
+vhdl work "prac2b.vhd"
+vhdl work "../../../Users/usuario_local/Downloads/tb_muneca.vhd"

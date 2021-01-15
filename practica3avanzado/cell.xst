@@ -1,0 +1,5 @@
+set -tmpdir "E:/practica3avanzado/xst/projnav.tmp"
+set -xsthdpdir "E:/practica3avanzado/xst"
+elaborate
+-ifn cell.prj
+-ifmt mixed

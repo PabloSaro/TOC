@@ -1,0 +1,51 @@
+V3 46
+FL E:/prac5toc/bj_mem/bj.vhd 2016/12/20.23:22:36 P.15xf
+EN work/bj 1482320908 FL E:/prac5toc/bj_mem/bj.vhd PB ieee/std_logic_1164 1335251622
+AR work/bj/Behavioral 1482320909 \
+      FL E:/prac5toc/bj_mem/bj.vhd EN work/bj 1482320908 CP divisor CP cd CP uc \
+      CP conv_7seg
+FL E:/prac5toc/bj_mem/cd.vhd 2016/12/21.12:47:26 P.15xf
+EN work/cd 1482320902 FL E:/prac5toc/bj_mem/cd.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627
+AR work/cd/rtl 1482320903 \
+      FL E:/prac5toc/bj_mem/cd.vhd EN work/cd 1482320902 CP contador CP bj_mem \
+      CP we_aux CP punt CP carta
+FL E:/prac5toc/bj_mem/contador.vhd 2016/12/21.12:47:26 P.15xf
+EN work/contador 1482320896 FL E:/prac5toc/bj_mem/contador.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/contador/rtl 1482320897 \
+      FL E:/prac5toc/bj_mem/contador.vhd EN work/contador 1482320896 CP pos
+FL E:/prac5toc/bj_mem/conv_7seg.vhd 2014/12/16.00:17:12 P.15xf
+EN work/conv_7seg 1482320906 FL E:/prac5toc/bj_mem/conv_7seg.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/conv_7seg/Behavioral 1482320907 \
+      FL E:/prac5toc/bj_mem/conv_7seg.vhd EN work/conv_7seg 1482320906
+FL E:/prac5toc/bj_mem/divisor_new.vhd 2016/12/21.10:56:58 P.15xf
+EN work/divisor 1482320900 FL E:/prac5toc/bj_mem/divisor_new.vhd \
+      PB ieee/std_logic_1164 1335251622 PB ieee/NUMERIC_STD 1335251627
+AR work/divisor/rtl 1482320901 \
+      FL E:/prac5toc/bj_mem/divisor_new.vhd EN work/divisor 1482320900 CP clk_1hz
+FL E:/prac5toc/bj_mem/ipcore_dir/bj_mem.vhd 2016/12/19.19:26:00 P.15xf
+EN work/bj_mem 1482320898 FL E:/prac5toc/bj_mem/ipcore_dir/bj_mem.vhd \
+      PB ieee/std_logic_1164 1335251622
+AR work/bj_mem/bj_mem_a 1482320899 \
+      FL E:/prac5toc/bj_mem/ipcore_dir/bj_mem.vhd EN work/bj_mem 1482320898
+FL E:/prac5toc/bj_mem/uc.vhd 2016/12/21.12:47:26 P.15xf
+EN work/uc 1482320904 FL E:/prac5toc/bj_mem/uc.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627
+AR work/uc/rtl 1482320905 \
+      FL E:/prac5toc/bj_mem/uc.vhd EN work/uc 1482320904
+FL "E:/prac5toc/practica 5/bj.vhd" 2016/12/20.23:22:36 P.15xf
+FL "E:/prac5toc/practica 5/cd.vhd" 2016/12/21.11:58:34 P.15xf
+FL "E:/prac5toc/practica 5/contador.vhd" 2014/12/16.00:17:04 P.15xf
+FL "E:/prac5toc/practica 5/conv_7seg.vhd" 2014/12/16.00:17:12 P.15xf
+FL "E:/prac5toc/practica 5/divisor_new.vhd" 2016/12/21.10:56:58 P.15xf
+FL "E:/prac5toc/practica 5/uc.vhd" 2016/12/21.12:12:58 P.15xf
+FL F:/prac5toc/bj_mem/conv_7seg.vhd 2016/12/19.20:00:24 P.15xf
+FL F:/prac5toc/bj_mem/ipcore_dir/bj_mem.vhd 2016/12/19.19:26:00 P.15xf
+FL "F:/prac5toc/practica 5/bj.vhd" 2016/12/20.23:22:36 P.15xf
+FL "F:/prac5toc/practica 5/cd.vhd" 2016/12/20.23:02:44 P.15xf
+FL "F:/prac5toc/practica 5/contador.vhd" 2014/12/16.00:17:04 P.15xf
+FL "F:/prac5toc/practica 5/conv_7seg.vhd" 2014/12/16.00:17:12 P.15xf
+FL "F:/prac5toc/practica 5/divisor_new.vhd" 2016/12/20.23:09:12 P.15xf
+FL "F:/prac5toc/practica 5/uc.vhd" 2016/12/20.23:09:12 P.15xf

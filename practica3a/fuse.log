@@ -1,0 +1,24 @@
+Running: C:\Xilinx\14.1\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/hlocal/practica3a/testa_isim_beh.exe -prj C:/hlocal/practica3a/testa_beh.prj work.testa 
+ISim P.15xf (signature 0xc3576ebc)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/hlocal/practica3a/definitions.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3a/cell.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3a/iterative.vhd" into library work
+Parsing VHDL file "C:/hlocal/practica3a/testa.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package definitions
+Compiling architecture behavioral of entity cell [\cell(5)\]
+Compiling architecture behavioral of entity iterative [\iterative(32,5)\]
+Compiling architecture behavior of entity testa
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 9 VHDL Units
+Built simulation executable C:/hlocal/practica3a/testa_isim_beh.exe
+Fuse Memory Usage: 35068 KB
+Fuse CPU Usage: 499 ms

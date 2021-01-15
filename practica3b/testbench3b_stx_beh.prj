@@ -1,0 +1,2 @@
+vhdl isim_temp "UM.vhd"
+vhdl isim_temp "testbench3b.vhd"

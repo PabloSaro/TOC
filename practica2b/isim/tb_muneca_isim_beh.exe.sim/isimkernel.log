@@ -1,0 +1,29 @@
+Command line:
+   tb_muneca_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  59831
+
+Tue Oct 25 21:30:38 2016
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 836.317 Meg
+
+ Total Signals          : 5
+ Total Nets             : 6
+ Total Signal Drivers   : 3
+ Total Blocks           : 4
+ Total Primitive Blocks : 4
+ Total Processes        : 3
+ Total Traceable Variables  : 13
+ Total Scalar Nets and Variables : 489
+Total Line Count : 36
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 679.031 Meg
+
+Tue Oct 25 21:33:57 2016
+

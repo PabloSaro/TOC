@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "E:/prac3a/prac3a/iterative.xst" -ofn "E:/prac3a/prac3a/iterative.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-ft256-5 iterative.ngc iterative.ngd  
+map -intstyle ise -p xc3s1000-ft256-5 -cm area -ir off -pr off -c 100 -o iterative_map.ncd iterative.ngd iterative.pcf 
+par -w -intstyle ise -ol high -t 1 iterative_map.ncd iterative.ncd iterative.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml iterative.twx iterative.ncd -o iterative.twr iterative.pcf 

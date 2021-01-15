@@ -1,0 +1,19 @@
+V3 17
+FL E:/prac4toc/CD.vhd 2016/11/29.16:35:22 P.15xf
+FL E:/prac4toc/divisor.vhd 2016/11/29.16:43:28 P.15xf
+FL E:/prac4toc/UC.vhd 2016/11/29.16:39:44 P.15xf
+FL F:/prac4toc/CD.vhd 2016/11/29.17:27:14 P.15xf
+EN work/cd 1480461944 FL F:/prac4toc/CD.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627
+AR work/CD/rtl 1480461945 \
+      FL F:/prac4toc/CD.vhd EN work/cd 1480461944 CP dndo_msb CP res CP coc
+FL F:/prac4toc/divisor.vhd 2016/11/30.00:25:28 P.15xf
+EN work/divisor 1480461948 FL F:/prac4toc/divisor.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627
+AR work/divisor/struct 1480461949 \
+      FL F:/prac4toc/divisor.vhd EN work/divisor 1480461948 CP cd CP uc
+FL F:/prac4toc/UC.vhd 2016/11/29.16:39:44 P.15xf
+EN work/uc 1480461946 FL F:/prac4toc/UC.vhd PB ieee/std_logic_1164 1335251622 \
+      PB ieee/NUMERIC_STD 1335251627
+AR work/UC/rtl 1480461947 \
+      FL F:/prac4toc/UC.vhd EN work/uc 1480461946
